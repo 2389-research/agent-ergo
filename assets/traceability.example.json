@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "mode": "improve-docs",
+  "scope": {
+    "summary": "Illustrative completed documentation change; not evidence of an actual project review.",
+    "baseline": "Fictional supplied specification, revision example-1."
+  },
+  "sources": [
+    {
+      "id": "S-01",
+      "kind": "inline",
+      "location": "Illustrative supplied specification",
+      "anchor": "Retry policy",
+      "version": "example-1"
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-01",
+      "severity": "high",
+      "disposition": "addressed",
+      "claim": "The fictional specification treats timeout as proof that no side effect occurred.",
+      "evidence": ["S-01"],
+      "rationale": "Illustrative design remediation only; runtime implementation remains outside this example."
+    }
+  ],
+  "changes": [
+    {
+      "id": "C-01",
+      "finding_ids": ["F-01"],
+      "summary": "Specify outcome reconciliation before retry and add the corresponding implementation slice.",
+      "surface": "documentation",
+      "status": "applied",
+      "targets": [
+        {
+          "kind": "inline",
+          "location": "Illustrative revised specification and plan",
+          "anchor": "Retry policy and acceptance criteria"
+        }
+      ],
+      "depends_on": [],
+      "acceptance": "The design distinguishes unknown outcome from failure and gives a safe resolution path."
+    }
+  ],
+  "checks": [
+    {
+      "id": "V-01",
+      "change_ids": ["C-01"],
+      "kind": "walkthrough",
+      "status": "pass",
+      "required_for_completion": true,
+      "description": "Illustrative design walkthrough of timeout after a completed effect.",
+      "evidence": "Example only: the operator checks the operation receipt before deciding whether to retry."
+    },
+    {
+      "id": "V-02",
+      "change_ids": ["C-01"],
+      "kind": "runtime",
+      "status": "not-run",
+      "required_for_completion": false,
+      "description": "Execute a fault-injection test against an implementation.",
+      "evidence": "Not run: this fictional example supplies no implementation."
+    }
+  ],
+  "completion": {
+    "status": "complete",
+    "summary": "Illustrative documentation remediation complete; no implementation claim.",
+    "limitations": ["All records are fictional examples; runtime behavior has not been tested."]
+  }
+}

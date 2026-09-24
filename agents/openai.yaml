@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Ergonomics"
+  short_description: "Make systems legible, controllable, and cumulative for agents"
+  default_prompt: "Use agent-ergonomics to review this system as an agent operator, make coherent improvements to its design documents and plans, and verify the revised whole. Preserve existing constraints and distinguish proposed behavior from verified implementation."
