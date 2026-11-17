@@ -103,6 +103,6 @@ Known limits:
   checklist style; two of them name the branch list.
 - This version's AE-14 runs made no changes, as that case expects, but are unjudged.
 
-The harness, the held-out case, and the per-run results are not in this package. They
-sit in `~/eval-archives/agent-ergonomics/2026-09-23/` on the machine that ran them, where
-`findings.md` records each step.
+The harness, the held-out case, and the per-run results are not in this package, and
+the archive that held them is no longer available. Read the table as a historical
+record. It cannot be reproduced or checked from this package.
